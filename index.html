@@ -25,7 +25,7 @@
         <div id="header-menu" class="header-menu bg-white">
             <a href="javascript:void(0)" class="closemenubtn text-dark" onclick="closeMenu()">&times;</a>
 
-            <div class="menu-overlay text-primary">
+            <div class="menu-overlay" id="menu-overlay">
                 <a href="#">Who we are</a>
                 <a href="#">Our produts</a>
                 <a href="#">Gallery</a>
@@ -49,8 +49,8 @@
                         <li>Our Team</li>
                     </ul>
                 </div>
-                <div class="menu text-white">
-                    <a href="javascript:void(0)" onclick="openMenu()" class="text-white">&#9776;</a>
+                <div class="menu text-dark">
+                    <a href="javascript:void(0)" onclick="openMenu()" class="text-dark">&#9776;</a>
                 </div>
             </div>
             <div class="full-header-content">
@@ -88,11 +88,70 @@
     </section>
 
     <section class="our-services">
-        
+        <div class="services-header">
+            <span>What We Can Help You With</span>
+        </div>
+        <hr>
+        <div class="services-main">
+            <div class="service-card">
+                <div>
+                    <h3>Content Creation</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum reiciendis nihil quos consequatur eos porro repellat aliquam a laudantium. Explicabo tempora ducimus accusamus temporibus! Ad. <span>Read More</span>
+                    </p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div>
+                    <h3>Content Creation</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum reiciendis nihil quos consequatur eos porro repellat aliquam a laudantium. Explicabo tempora ducimus accusamus temporibus! Ad. <span>Read More</span>
+                    </p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div>
+                    <h3>Content Creation</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum reiciendis nihil quos consequatur eos porro repellat aliquam a laudantium. Explicabo tempora ducimus accusamus temporibus! Ad. <span>Read More</span>
+                    </p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div>
+                    <h3>Content Creation</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum reiciendis nihil quos consequatur eos porro repellat aliquam a laudantium. Explicabo tempora ducimus accusamus temporibus! Ad. <span>Read More</span>
+                    </p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div>
+                    <h3>Content Creation</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum reiciendis nihil quos consequatur eos porro repellat aliquam a laudantium. Explicabo tempora ducimus accusamus temporibus! Ad. <span>Read More</span>
+                    </p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div>
+                    <h3>Content Creation</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum reiciendis nihil quos consequatur eos porro repellat aliquam a laudantium. Explicabo tempora ducimus accusamus temporibus! Ad. <span>Read More</span>
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="get-in-touch">
-
+        <div>
+            <h3>Looking For Exclusive Digital Services?</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo iure alias tenetur mollitia similique quos ad neque non incidunt inventore.
+            </p>
+            <span>Get In Touch</span>
+        </div>
     </section>
 
     <section class="our-team">
@@ -100,7 +159,35 @@
     </section>
 
     <section class="leave-a-message">
-
+        <h3>Leave A Message</h3>
+        <div class="message-form">
+            <div>
+                <form id="message-form">
+                    <!-- Name input -->
+                    <div class="form-group mb-4">
+                        <input type="text" name="name" id="" class="form-control" placeholder="name"/>
+                    </div>
+                  
+                    <!-- Email input -->
+                    <div class="form-group mb-4">
+                        <input type="email" name="email" id="" class="form-control" placeholder="email address"/>
+                    </div>
+                  
+                    <!-- Message input -->
+                    <div class="form-group mb-4">
+                        <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="write a message..."></textarea>
+                    </div>
+                  
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-center mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="" checked/>
+                        <label class="form-check-label" for="subscribe">Subscribe for newsletter</label>
+                    </div>
+                  
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary form-control">Send</button>
+                  </form>
+        </div>
     </section>
 
     <footer>
@@ -109,10 +196,10 @@
     </footer>
 
 
-    <!-- <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script> -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> -->
+    <!-- <script src="js/jquery.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
