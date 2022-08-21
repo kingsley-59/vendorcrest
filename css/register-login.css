@@ -1,0 +1,81 @@
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.main .sub-main{
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main div h3{
+    color: #444444;
+    font-size: 32px;
+    text-align: left;
+}
+.spa-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    border-radius: 8px;
+    background-color: #e9e9e9;
+}
+.spa-header{
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.spa-header span{
+    width: 100px;
+    height: 100%;
+    padding: 8px 12px;
+    background-color: rgba(64, 224, 208, 0.712);
+}
+.register-tab:hover, .login-tab:hover{
+    cursor: pointer;
+    border: 1px inset white;
+}
+.active-tab{
+    background-color: rgb(64, 224, 208);
+}
+.spa-register{
+    display: none;
+    width: 100%;
+    margin: auto;
+    transition: 0.5s;
+    padding: 40px;
+}
+.spa-login{
+    display: none;
+    width: 100%;
+    margin: auto;
+    transition: 0.5s;
+    padding: 40px;
+}
+#reg-password + .glyphicon, #login-password + .glyphicon {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+
+
+@media only screen and (max-width:800px){
+    main{
+        width: 100%;
+    }
+}
